@@ -1,0 +1,8 @@
+body{
+    background-color: rgba(199, 165, 165, 0.055);;
+    padding: 20px;
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 55px;
+}

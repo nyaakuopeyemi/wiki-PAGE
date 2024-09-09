@@ -1,0 +1,204 @@
+/*.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+the .logo being the class="logo"
+this is also an alternative of centering an image*/
+p{
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;    
+}
+
+
+button{
+    padding: 10px;
+    text-align: left;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+button:hover{
+    color: blue;
+    background-color: rgb(202, 157, 157);
+}
+
+.imag {
+    text-align: center;
+}
+
+.srch {
+    margin: auto;
+    margin-bottom: 0%;
+    margin-top: 1%;
+    width: 80%;
+    height: 50px;
+    box-shadow: 1px 1px 10px rgb(97, 90, 90);
+    border-right: 50px;
+    border-left: 50px;
+    display: block;
+    padding: 20px;
+    border-radius: 50px;
+    border: none;
+    font-size: 30px;
+
+} 
+
+.search {
+    font-size: 40px;
+    width: max-content;    
+    margin-right: auto;
+    inline-size: 350px;
+    background-color: antiquewhite;
+}
+
+.text1 {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+    display: inline-block;
+    border: none;
+    font-size: 20px;
+    padding: 15px;
+    background-color: antiquewhite;
+}
+
+.text2 {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+    display: inline-block;
+    border: none;
+    font-size: 20px;
+    padding: 15px;
+    background-color: antiquewhite;
+}
+
+.downbutton {
+    text-align: center;
+    padding: 30px;
+
+}
+
+.cats{    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
+    height: 50%;
+}
+
+
+.thumbnail {
+    width: 100%;
+    height: 50%;
+}
+
+
+.cat-1, .cat2, .cat3 {
+    border-radius: 10px;
+    box-shadow: 1px 5px 20px rgb(51, 28, 28);
+}
+
+.bts1, .bts2, .bts3 {
+    background-color: rgb(89, 89, 170);
+    padding: 5px;
+    border-radius: 5px;
+    color: aliceblue;
+    margin: 10px;
+    text-align: center;
+}
+
+.details {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 15px;
+}
+.pa1,.pa2,.pa3{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 10px;
+}
+.p1, .p2, .p3{
+    font-size: 25px;
+    color: rgb(107, 110, 112);
+}
+/* styling for the footer*/
+.sqre-grid {
+    display: grid;
+    height:auto;
+    grid-template-columns: auto auto auto;
+    column-gap: 30px;
+    row-gap: 10px;
+    margin-top: 10px;
+}
+
+.satisfaction{
+    border-radius: 30px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: left;
+    box-shadow: 5px 15px 25px rgb(0,0,0,1);
+}
+
+.satbt{
+   margin: 20px;
+}
+
+.yout{
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+    background-color: rgb(241, 240, 255) ;
+    padding: auto;
+    box-shadow: 5px 15px 25px rgb(0,0,0,1);
+}
+
+.youtubeimg{
+    border-radius: 350px;
+    width: auto;
+    padding: auto;
+    margin: 20px;
+}
+/* end of styling for the footer*/
+
+/* styling for the uber ride */
+.ride {
+    background-color: rgb(197, 216, 235);
+    box-shadow: 5px 15px 25px rgb(0,0,0,1);
+    border-radius: 30px;
+}
+
+.rq {
+    font-size: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+
+.ub1,.ub2 {
+    margin: 10px;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 15px;
+    width: 300px;
+    display: block;
+    border-radius: 10px;
+}
+
+
+.uberbt {
+    font-size: 20px; 
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    text-align: right;
+}
+/* end of styling for uber ride*/

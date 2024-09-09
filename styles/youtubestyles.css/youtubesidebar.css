@@ -1,0 +1,80 @@
+/*css stye for the sidebar*/
+nav{
+    display: flex;
+    background-color: rgb(177, 140, 140);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav li{
+    height: 50px;
+}
+nav a{
+    height: 100%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    color: rgb(26, 27, 26);
+}
+nav a :hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+/* to place one part of the nav bar on one side, using either :first-child or :last-child
+nav li:first-child{
+    margin-right: auto;
+} */
+
+.hoverbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 10000;
+    background-color: rgba(224, 218, 218, 0.329);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin-top: 0;
+}
+
+.leftbar li{
+    width: 100%;
+}
+.leftbar a{
+    width: 100%;
+}
+.leftbar li :hover{
+    background-color: rgb(141, 137, 137);
+}
+
+.sidebar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 570px;
+    width: 110px;
+    z-index: 999;
+    display: flex;
+    background-color: rgba(243, 236, 236, 0.685);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);    
+    flex-direction: column;
+}
+
+div ul{
+    list-style: none;
+}
+div li{
+    padding-bottom: 20px;
+}
