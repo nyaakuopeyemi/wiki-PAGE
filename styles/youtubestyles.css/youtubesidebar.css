@@ -70,6 +70,7 @@ nav li:first-child{
     background-color: rgba(243, 236, 236, 0.685);
     box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);    
     flex-direction: column;
+    
 }
 
 div ul{
@@ -77,4 +78,19 @@ div ul{
 }
 div li{
     padding-bottom: 20px;
+}
+
+@media (max-width:600px) {
+    .sidebar{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        height: 100vh;
+        width: 110px;
+        z-index: 999;
+        display: flex;
+        background-color: rgba(243, 236, 236, 0.685);
+        box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);    
+        flex-direction: column;
+    }
 }

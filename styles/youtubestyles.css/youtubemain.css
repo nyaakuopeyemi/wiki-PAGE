@@ -6,3 +6,15 @@ body{
     justify-content: space-between;
     margin-top: 55px;
 }
+
+@media (max-width: 600px) {
+    body{
+        background-color: rgba(199, 165, 165, 0.055);;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 55px;
+    }
+}
