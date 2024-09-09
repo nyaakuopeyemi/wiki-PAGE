@@ -7,9 +7,9 @@ body{
     margin-top: 55px;
 }
 
-@media (max-width: 600px) {
+@media only screen and (max-width: 600px){
     body{
-        background-color: rgba(199, 165, 165, 0.055);;
+        background-color: rgba(116, 104, 104, 0.055);;
         padding: 20px;
         display: grid;
         grid-template-columns: 1fr 1fr;
